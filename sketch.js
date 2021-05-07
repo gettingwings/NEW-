@@ -40,6 +40,8 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+
+    text("Dipti", 50,50)
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
